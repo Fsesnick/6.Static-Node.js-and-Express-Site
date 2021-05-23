@@ -1,0 +1,84 @@
+{
+    "projects": [
+        {
+            "id": 0,
+            "project_name": "My resume",
+            "description": "A website that shows my resume and I can share a little bit about myself",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
+            "live_link": "https://fsesnick.github.io/index.html",
+            "github_link": "https://github.com/Fsesnick/Fsesnick.github.io",
+            "image_urls": [
+                "/static/img/resume550x550.png",
+                "/static/img/resume1200x550.png"
+            ]
+        },
+        {
+            "id": 1,
+            "project_name": "Interactive form",
+            "description": "Interactive form to register for a conference",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
+            "live_link": "",
+            "github_link": "https://github.com/Fsesnick/3.Interactive-Form",
+            "image_urls": [
+                "/static/img/form550x550.png",
+                "/static/img/form550x1200.png"
+            ]
+        },
+        {
+            "id": 2,
+            "project_name": "Phrase Hunter Doctor Who",
+            "description": "A guessing game which the user has to guess a Doctor who phrase",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
+            "live_link": "",
+            "github_link": "https://github.com/Fsesnick/4.OOP-Game-Show-App",
+            "image_urls": [
+                "/static/img/phrase-hunter550x550.png",
+                "/static/img/phrase-hunter-1200x550.png"
+            ]
+        },
+        {
+            "id": 3,
+            "project_name": "Public Api Request",
+            "description": "App for a fictional company called Awesome Startup",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
+            "live_link": "",
+            "github_link": "https://github.com/Fsesnick/5.Public-API-Requests",
+            "image_urls": [
+                "/static/img/API550x550.png",
+                "/static/img/API1200X550.png"
+            ]
+        },
+        {
+            "id": 4,
+            "project_name": "Random quote generator",
+            "description": "Fun Random quote generator, that displays quotations on a page, and can show different quotes by clicking the button Show another quote.",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
+            "live_link": "",
+            "github_link": "https://github.com/Fsesnick/1.Random-quote-generator",
+            "image_urls": [
+                "/static/img/randomQ550x550.png",
+                "/static/img/randomQ550X1200.png"
+            ]
+        }
+    ]
+}
