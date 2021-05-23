@@ -17,6 +17,7 @@ app.use(express.urlencoded({ extended: false }));
  */
  app.set('view engine', 'pug');
 
+
 //-----ROUTES ----//
 
 /**
@@ -37,13 +38,29 @@ app.get('/about', function (req, res) {
  */
 app.get('/projects/:id', (req, res) => {
   const ProjId = req.params.id;
-  const project = data.projects[ProjId];
+  const project = projects.find(({id}) => id ===+ ProjId) ;
   if(project) {
     res.locals.data = data.projects;
     res.render('project', project);
   } else {
     res.redirect('/404');
   }
+});
+
+/**
+ * ERROR HANDLERS 
+ */
+
+app.use((req, res, next) => {
+  const err = new Error('Not Found :(');
+  err.status = 404;
+  next(err);
+});
+
+app.use((err, req, res, next) => {
+  res.locals.error = err;
+  res.status(err.status);
+  res.render('error');
 });
 
 

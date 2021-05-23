@@ -20,11 +20,11 @@ block content
           //- The paths in the link's href and img's src attributes
           //- The text 'Thumbnail' interpolated with the project title for the img's alt attribute
           //- The project title for the h5 element's text
-
-
-    each project in projects
+      each project in projects
         .cell
           a(href=`/projects/${project.id}`)
-            img.thumbnail(src= `${project.image_urls[0]}`)
-            h5= project.project_name
+              img.thumbnail(src= `${project.image_urls[0]}`,  alt=`Thumbnail of ${project.project_name} project`,style="width:300px")
+              h5= project.project_name
+
+            
 
