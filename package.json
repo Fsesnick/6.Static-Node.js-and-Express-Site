@@ -2,6 +2,9 @@
   "name": "6.static-node.js-and-express-site",
   "version": "1.0.0",
   "description": "Techdegree",
+  "engines": {
+    "node": "14.x"
+  },
   "main": "app.js",
   "dependencies": {
     "express": "^4.17.1",
