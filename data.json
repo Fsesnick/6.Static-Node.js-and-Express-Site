@@ -79,6 +79,22 @@
                 "/static/img/randomQ550x550.png",
                 "/static/img/randomQ550X1200.png"
             ]
+        },
+        {
+            "id": 5,
+            "project_name": "DataBase registration",
+            "description": "A place where you can save you product and client data, for ecommerce plataform",
+            "technologies": [
+                "Sigle page app",
+                "React",
+                "JavaScript"
+            ],
+            "live_link": "https://registration-management.netlify.app/",
+            "github_link": "https://github.com/Fsesnick/Fsesnick.github.io",
+            "image_urls": [
+                "/static/img/database550x550.png",
+                "/static/img/database550X1200.png"
+            ]
         }
     ]
 }
